@@ -34,7 +34,7 @@ To set up and evaluate the database locally with PostgreSQL installed:
 createdb library_system
 
 # 2. Restore schema and data from the dump file
-psql -d library_system -f library_project.sql
+psql -d library_system -f library_dump.sql
 ```
 
 ## 📊 Example Query
